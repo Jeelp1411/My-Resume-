@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+       
+        body, h1, h2, h3, p, ul, li, a, img, iframe {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+      
+        :root {
+          --primary-color: #3498db;
+          --secondary-color: #f39c12;
+          --background-color: #ecf0f1;
+          --text-color: #333333;
+          --accent-color: #27ae60;
+          --font-family: 'Your-Preferred-Font', sans-serif;
+        }
+
+        body {
+          font-family: var(--font-family);
+          background-color: var(--background-color);
+          color: var(--text-color);
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+        }
+
+        .container {
+          max-width: 960px;
+          width: 100%;
+          padding: 20px;
+        }
+
+       
+        header {
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+        }
+
+        header h1 {
+          font-size: 36px;
+          margin-bottom: 10px;
+        }
+
+        header p {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+      
+        aside {
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          width: 300px;
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        aside a {
+          text-decoration: none;
+          color: #fff;
+          margin: 10px 0;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+        }
+
+        aside a:hover {
+          background-color: var(--secondary-color);
+        }
+
+       
+        main {
+          margin-left: 320px;
+        }
+
+        
+        section {
+          background-color: #fff;
+          border-radius: 10px;
+          margin: 20px 0;
+          max-width: 600px;
+          padding: 20px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        h2 {
+          color: var(--accent-color);
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin: 10px 0;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        p {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        
+        footer {
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+          font-size: 14px;
+          margin-top: 20px;
+        }
+
+        footer p {
+          margin: 0;
+        }
+
+        
+        .centered-image {
+          border-radius: 50%;
+          margin: auto;
+          display: block;
+          width: 200px;
+          height: 200px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Jeel Patel</h1>
+        <p>Data Analyst</p>
+        <ul>
+            <li>Email: jeelpatel141199@gmail.com</li>
+            <li>Phone: +1 (548) 888-3748</li>
+        </ul>
+    </div>
+</header>
+
+<aside>
+    <a href="#about">About Me</a>
+    <a href="#work-experience">Work Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contact.html">Contact</a>
+</aside>
+
+<main>
+    <div class="container">
+        <section id="about">
+            <img src="C:\Users\Jeel\Desktop\new resume\jeel pic.jpg" alt="Profile Image" class="centered-image">
+            <h2>About Me</h2>
+            <p>In my role as a data analyst, I have honed my skills in data collection, cleaning, and manipulation. With 3 years of experience, I have a proven track record of collaborating with cross-functional teams to identify business challenges and develop data-driven solutions. Beyond my professional work, I am dedicated to continuous learning and staying up-to-date with the latest data analysis techniques and tools.</p>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <h3>Data Analyst | Monarch-Adroit InfoTec</h3>
+            <p>My responsibilities included:</p>
+            <ul>
+                <li>Collecting data from various sources such as databases, websites, surveys, and other resources.</li>
+                <li>Ensuring data accuracy and integrity by cleaning and formatting data.</li>
+                <li>Analyzing data using statistical software and tools to identify patterns and insights.</li>
+                <li>Creating reports and visualizations, including dashboards and charts, to communicate findings to stakeholders.</li>
+                <li>Collaborating with cross-functional teams to solve complex problems and drive improvements.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Computer Application | Dr. A.P.J Abdul Kalam University, Indore | June 2020</li>
+                <li>HSC (Science Stream) | Gujarat Board | 2017 | 73.40%</li>
+                <li>SSC | Gujarat Board | 2015 | 53.00%</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Python</li>
+                <li>Database Management</li>
+                <li>Java</li>
+                <li>Web Technologies</li>
+            </ul>
+        </section>
+    </div>
+</main
